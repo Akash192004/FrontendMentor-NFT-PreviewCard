@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    background-color:hsl(217, 54%, 11%);
+}
+.container{
+    display: flex;
+    border-radius: 10px;
+    margin: 10% 35% 10% 35%;
+    padding: 1%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+}
+.img{
+    padding-bottom: 0px;
+    background-color: hsl(216, 50%, 16%);
+}
+.img:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: hsla(178, 100%, 50%, 0.438);
+    background-image: url(images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+#i1:hover{
+    opacity: 0.5;
+    border-radius: 10px;
+}  
+#i1{
+    width:100% ;
+    border-radius: 10px;
+}
+h4{
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(216, 50%, 16%);
+}
+p{
+    color: hsla(215, 52%, 70%, 0.632);
+}
+
+.text,p,span{
+    background-color: hsl(215, 44%, 16%);
+}
+#icon-1{
+    margin-right: 5px;
+    width: 10%;
+    background-color: hsl(215, 44%, 16%);
+}
+#icon-2{
+    margin-right: 5px;
+    width: 15%;
+    background-color: hsl(215, 44%, 16%);
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(216, 50%, 16%);
+}
+span{
+    padding: 5px;
+}
+#eth{
+    color: hsl(178, 100%, 50%);
+}
+#time{
+    color: hsl(215, 51%, 70%);
+}
+hr{
+    width: 90%;
+    position: relative;
+    top: 10px;
+    border: none;
+    height: 1px;
+    background: hsl(215, 32%, 27%);
+    margin-bottom: 20px;
+}
+#avatar{
+    width: 15%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+footer{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-right: 25%;
+    color:hsl(215, 51%, 70%) ;
+}
+span{
+    color: white;
+}
+.attribution{
+    text-align: center;
+    color: white;
+}
+a{
+    color: purple;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+@media screen and (max-width: 380px){
+    .container{
+        width: 60%;
+        margin-left:20% ;
+    }  
+}
